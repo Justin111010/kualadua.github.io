@@ -1,66 +1,73 @@
+/*
+NAVBAR PART GOES HERE BRUUUUUUUUU LOLOLOLOLOLL*/
+
 body {
   margin: 0;
   font-family: 'Allura', cursive;
 }
+
+
 
 .navbar {
   background-color: #4A7B61;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0.8rem 2rem;
-  border-top: 2px solid #3FA9F5;
+  padding: 2rem 2rem;
 }
 
 .left{
   display: flex;
   align-items: center;
-  gap: 1.5rem;
+  gap: 15rem;
 }
 
 .logo {
   display: flex;
   align-items: center;
-  gap: 1.5rem;
+  gap: 3rem;
+  margin-left: 7.5rem;
+  transform: scale(1.5); 
+  transform-origin: left center; 
 }
 
 .star {
   background-color: #F8AD50;
-  color: #4A7C5D;;
+  color: #4A7C5D;
   border-radius: 50%;
-  width: 2.2rem;
-  height: 2.2rem;
+  width: 3rem;      
+  height: 3rem;     
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 2rem;
-  margin-left: 20px;
+  font-size: 2rem;  
 }
 
-.brand{
-  font-size: 2.8rem;
+.brand {
+  font-size: 60px;
   color: white;
-font-weight: bold;
+  font-weight: bold;
   font-family: 'Allura', cursive;
-  margin-left: 40px;
 }
-
 .scribble svg {
   height: 80px;
   width: auto;
+  gap:2.5rem;
 }
 
 .nav-links {
   display: flex;
   align-items: center;
-  gap: 5rem;
+  gap: 8.5rem;
   font-family: sans-serif;
+margin-right: 10rem;
 }
 
 .nav-links a {
   color: white;
   text-decoration: none;
   font-weight: 500;
+    font-size: 38px;
 }
 
 .nav-links a {
@@ -69,6 +76,7 @@ font-weight: bold;
   font-weight: 500;
   font-size: 1.1rem;
   transition: color 0.3s ease; 
+    font-size: 38px;
 }
 
 .nav-links a.active {
@@ -79,17 +87,16 @@ font-weight: bold;
   color: #FFD700;
 }
 
-.search-icon {
-  color: white;
-  cursor: pointer;
-}
 .navbar {
-  padding: 1.5rem 3rem; 
+  padding: 4rem 5rem; 
 }
+/*
+NAME AND INTRO GOES HERE BRUUUU LLLOLOLOLLLOLOL (HEROO)
+*/
 .intro{
     font-family: 'Poppins', sans-serif;
     margin-left: 190px;
-    font-size: 38px;
+    font-size: 59px;
     color: white;
     margin-top: 90px;
     margin-bottom: 10px;
@@ -97,40 +104,40 @@ font-weight: bold;
 .name{
     font-family: 'Poppins', sans-serif;
     margin-left: 180px;
-    font-size: 100px;
+    font-size: 180px;
     color: white;
 
-    margin-top: 10px;
+    margin-top: 13px;
 
 }
-body {
-  margin: 0;
-  background-color: #3f694e;
-  font-family: 'Helvetica', sans-serif;
-  color: white;
-}
 
+.hero{
+  padding-left: 8rem;
+  margin-top: 5rem;
+}
+/*
+QUOTES GOES HEREEEE
+*/
 
 .quote-wrapper {
   display: flex;
   justify-content: flex-end;
   padding: 5rem;
   width: 95%;
-  box-sizing: border-box;
+  box-sizing:content-box;
   margin-top: 0px;
 }
 
 .quote-section {
-  max-width: 500px;
-  padding: 20px;
-  background-color: #3f694e;
- 
+  max-width: 1000px;
+  padding: 80px;
+   font-family: 'Poppins', sans-serif;
   position: relative;
   color: white;
 }
 
 .quote-symbol {
-  font-size: 60px;
+  font-size: 140px;
   line-height: 0.5;
   position: absolute;
   top: -20px;
@@ -139,5 +146,23 @@ body {
 }
 
 .quote-text{
-  size: 30px;
+  font-size: 70px;
+    font-family: 'Poppins', sans-serif;
+}
+.subtext{
+font-size: 50px;
+font-family: 'Poppins', sans-serif;
+}
+.description{
+font-size: 30px;
+font-family: 'Poppins', sans-serif;
+font-weight: 0%;
+}
+
+.hero-quote-wrapper {
+  display: flex;
+  align-items:center;
+  justify-content: space-between;
+  padding: 4rem;
+  gap: 4rem;
 }
