@@ -140,13 +140,14 @@ QUOTES GOES HEREEEE
   display: flex;
   justify-content: flex-end;
   padding: 5rem;
-  width: 95%;
+  width: 80%;
   box-sizing:content-box;
   margin-top: 0px;
+  left: 30px;
 }
 
 .quote-section {
-  max-width: 1000px;
+  max-width: 1200px;
   padding: 80px;
    font-family: 'Poppins', sans-serif;
   position: relative;
@@ -163,17 +164,25 @@ QUOTES GOES HEREEEE
 }
 
 .quote-text{
-  font-size: 70px;
+  font-size: 75px;
     font-family: 'Poppins', sans-serif;
+    letter-spacing: 3.5px;
+    
+    line-height: 95px; 
 }
 .subtext{
-font-size: 50px;
+font-size: 55px;
 font-family: 'Poppins', sans-serif;
+letter-spacing: 3.5px;
+
+line-height: 20px; 
 }
 .description{
-font-size: 30px;
+font-size: 35px;
 font-family: 'Poppins', sans-serif;
-font-weight: 0%;
+font-weight: 0;
+letter-spacing: 3.5px;
+line-height: 45px; 
 }
 
 .hero-quote-wrapper {
@@ -182,4 +191,12 @@ font-weight: 0%;
   justify-content: space-between;
   padding: 4rem;
   gap: 4rem;
+}
+.quote-line {
+  height: 10px;
+  background-color: #FFFFFF; 
+  width: 60rem;               /* adjust to your liking */
+  margin-top: 180px;
+  border-radius: 5px;        
+  padding-left: 100px;
 }
