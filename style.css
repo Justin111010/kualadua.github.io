@@ -100,14 +100,31 @@ NAME AND INTRO GOES HERE BRUUUU LLLOLOLOLLLOLOL (HEROO)
     color: white;
     margin-top: 90px;
     margin-bottom: 10px;
+    -webkit-text-stroke: 2px black;
 }
 .name{
     font-family: 'Poppins', sans-serif;
     margin-left: 180px;
     font-size: 180px;
     color: white;
-
+ z-index: 1;
     margin-top: 13px;
+    position: relative;
+letter-spacing: 10px;
+ -webkit-text-stroke: 4px black;
+}
+.hero-image {
+  position: absolute;
+  z-index: 0; 
+  left: 50rem;
+  top: 250px; 
+}
+
+.hero-image img {
+  width: 95rem;
+  height: 95rem;
+  border-radius: 50%; 
+  object-fit: cover;
 
 }
 
