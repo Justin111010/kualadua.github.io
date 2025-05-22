@@ -6,9 +6,7 @@ body {
   font-family: 'Allura', cursive;
 }
 
-body, html{
-  overflow: hidden;
-}
+
 
 .navbar {
   background-color: #4A7B61;
@@ -42,9 +40,6 @@ body, html{
   height: auto; 
 }
 
-h1 {
-  font-size: 3vw; 
-}
 
 .container {
   display: flex;
@@ -119,17 +114,17 @@ NAME AND INTRO GOES HERE BRUUUU LLLOLOLOLLLOLOL (HEROO)
 */
 .intro{
     font-family: 'Poppins', sans-serif;
-    margin-left: 190px;
-    font-size: 59px;
+    margin-left: 65px;
+    font-size: 40px;
     color: white;
-    margin-top: -120px;
+    margin-top: -350px;
     margin-bottom: 10px;
    
 }
 .name{
     font-family: 'Poppins', sans-serif;
-    margin-left: 180px;
-    font-size: 150px;
+    margin-left: 40px;
+    font-size: 100px;
     color: white;
  z-index: 1;
     margin-top: 5px;
@@ -140,13 +135,13 @@ letter-spacing: 10px;
 .hero-image {
   position: absolute;
   z-index: 0; 
-  left: 50rem;
+  left: 30rem;
   top: 250px; 
 }
 
 .hero-image img {
-  width: 60rem;
-  height: 60rem;
+  width: 40rem;
+  height: 40rem;
   border-radius: 50%; 
   object-fit: cover;
 
@@ -164,14 +159,14 @@ QUOTES GOES HEREEEE
   display: flex;
   justify-content: flex-end;
   padding: 5rem;
-  width: 108%;
+  width: 103%;
   box-sizing:content-box;
-  margin-top: 0px;
+  margin-top: -140px;
   left: 30px;
 }
 
 .quote-section {
-  max-width: 1200px;
+  max-width: 800px;
   padding: 80px;
    font-family: 'Poppins', sans-serif;
   position: relative;
@@ -182,27 +177,27 @@ QUOTES GOES HEREEEE
   font-size: 140px;
   line-height: 0.5;
   position: absolute;
-  top: -20px;
+  top: 35px;
   left: 10px;
   color: white;
 }
 
 .quote-text{
-  font-size: 45px;
+  font-size: 55px;
     font-family: 'Poppins', sans-serif;
     letter-spacing: 1.5px;
     
     line-height: 95px; 
 }
 .subtext{
-font-size: 35px;
+font-size: 25px;
 font-family: 'Poppins', sans-serif;
 letter-spacing: 1.5px;
 
 line-height: 20px; 
 }
 .description{
-font-size: 25px;
+font-size: 20px;
 font-family: 'Poppins', sans-serif;
 font-weight: 0;
 letter-spacing: 1.5px;
@@ -220,12 +215,53 @@ line-height: 45px;
   height: 10px;
   background-color: #FFFFFF; 
   width: 60rem;              
-  margin-top: 180px;
+  margin-top: 100px;
   border-radius: 5px;        
   padding-left: 100px;
 }
 @keyframes drawScribble {
   100% {
-      stroke-dashoffset: 0; /* Line is fully drawn */
+      stroke-dashoffset: 0; 
   }
+}
+
+/*works*/
+
+.gallery-box {
+  margin-top: -20px; 
+  width: 96%;
+  height: 850px;
+  background-color: #1f4e39; 
+  margin-left: 30px;
+  margin-right: auto;
+  border-radius: 3px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.piano1 {
+  display: flex;
+  margin-left: 90px;
+  position: relative;
+  top: 50px; 
+}
+.title1{
+  font-size: 8px;
+  color: white;
+font-family: 'Poppins', sans-serif;
+margin-left: 200px;
+margin-top: 65px;
+}
+
+.piano2 {
+  display: flex;
+  margin-left: 90px;
+  position: relative;
+  top: 50px;
+}
+.title2{
+  font-size: 8px;
+  color: white;
+font-family: 'Poppins', sans-serif;
+margin-left: 200px;
+margin-top: 65px;
 }
