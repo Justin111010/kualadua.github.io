@@ -16,13 +16,13 @@ body, html{
   justify-content: space-between;
   align-items: center;
   padding: 2rem 2rem;
-  width: 100%;
+  width: 140%;
 }
 
 .left{
   display: flex;
   align-items: center;
-  gap: 25rem;
+  gap: 15rem;
 }
 
 @media (max-width: 768px) {
@@ -32,7 +32,7 @@ body, html{
   display: flex;
   align-items: center;
   gap: 3rem;
-  margin-left: 7.5rem;
+  margin-left: 5.5rem;
   transform: scale(1.5); 
   transform-origin: left center; 
 }
@@ -71,7 +71,7 @@ h1 {
 }
 
 .brand {
-  font-size: 60px;
+  font-size: 30px;
   color: white;
   font-weight: bold;
   font-family: 'Allura', cursive;
@@ -87,17 +87,12 @@ h1 {
 .nav-links {
   display: flex;
   align-items: center;
-  gap: 8.5rem;
+  gap: 7.5rem;
   font-family: sans-serif;
 margin-right: 5rem;
 }
 
-.nav-links a {
-  color: white;
-  text-decoration: none;
-  font-weight: 500;
-    font-size: 38px;
-}
+
 
 .nav-links a {
   color: white;
@@ -105,7 +100,7 @@ margin-right: 5rem;
   font-weight: 500;
   font-size: 1.1rem;
   transition: color 0.3s ease; 
-    font-size: 38px;
+    font-size: 25px;
 }
 
 .nav-links a.active {
