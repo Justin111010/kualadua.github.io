@@ -262,6 +262,61 @@ margin-top: 65px;
   font-size: 8px;
   color: white;
 font-family: 'Poppins', sans-serif;
-margin-left: 200px;
+margin-left: 180px;
 margin-top: 65px;
+}
+.title3{
+  font-size: 8px;
+  color: white;
+font-family: 'Poppins', sans-serif;
+margin-left: 750px;
+margin-top: -787px;
+}
+.draw{
+  display: flex;
+  margin-left: 650px;
+  position: relative;
+  top: -790px;
+}
+
+.sheet{
+  display: flex;
+  margin-left: 650px;
+  position: relative;
+  top: 45px;
+}
+.title4{
+  font-size: 8px;
+  color: white;
+font-family: 'Poppins', sans-serif;
+margin-left: 700px;
+margin-top: 60px;
+}
+
+.clarinet{
+  display: flex;
+  margin-left: 1250px;
+  position: relative;
+  top: -780px;
+}
+.title5{
+  font-size: 8px;
+  color: white;
+font-family: 'Poppins', sans-serif;
+margin-left: 1300px;
+margin-top: -780px;
+}
+
+.violin{
+  display: flex;
+  margin-left: 1250px;
+  position: relative;
+  top: 50px;
+}
+.title6{
+  font-size: 8px;
+  color: white;
+font-family: 'Poppins', sans-serif;
+margin-left: 1270px;
+margin-top: 60px;
 }
