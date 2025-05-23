@@ -320,3 +320,36 @@ font-family: 'Poppins', sans-serif;
 margin-left: 1270px;
 margin-top: 60px;
 }
+
+/*Contact*/
+
+.contact-container{
+    margin-top: -20px; 
+  width: 65%;
+  height: 850px;
+  background-color: #212C19; 
+  margin-left: 0px;
+  margin-right: auto;
+  border-radius: 3px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+.contact-container1{
+    margin-top: -850px; 
+  width: 45%;
+  height: 850px;
+  background-color: #3E4D33; 
+  margin-left: 1100px;
+  margin-right: auto;
+  border-radius: 3px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+.contact-container2{
+    margin-top: -700px; 
+  width: 58%;
+  height: 700px;
+  background-color: #2D3C22; 
+  margin-left: 300px;
+  margin-right: auto;
+  border-radius: 3px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
