@@ -428,3 +428,57 @@ font-family: 'Poppins', sans-serif;
 margin-left: 1505px;
 margin-top: -200px;
 }
+
+.keyboard{
+ display: flex;
+  margin-left: 150px;
+  position: relative;
+  top: 200px; 
+}
+.titlekey{
+font-size: 8px;
+  color: white;
+font-family: 'Poppins', sans-serif;
+margin-left: 140px;
+margin-top: 220px; 
+}
+.violin{
+display: flex;
+  margin-left: 580px;
+  position: relative;
+  top: -210px; 
+}
+.titlevio{
+font-size: 8px;
+  color: white;
+font-family: 'Poppins', sans-serif;
+margin-left: 590px;
+margin-top: -210px; 
+}
+.guitar{
+display: flex;
+  margin-left: 1030px;
+  position: relative;
+  top: -210px; 
+}
+.titleguitar{
+font-size: 8px;
+  color: white;
+font-family: 'Poppins', sans-serif;
+margin-left: 1050px;
+margin-top: -195px; 
+}
+
+.drum{
+display: flex;
+  margin-left: 1450px;
+  position: relative;
+  top: -210px; 
+}
+.titledrum{
+font-size: 8px;
+  color: white;
+font-family: 'Poppins', sans-serif;
+margin-left: 1480px;
+margin-top: -195px; 
+}
