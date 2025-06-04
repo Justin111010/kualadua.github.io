@@ -231,7 +231,7 @@ line-height: 45px;
   margin-top: -20px; 
   width: 96%;
   height: 850px;
-  background-color: #1f4e39; 
+  background-color: #3A6249; 
   margin-left: 30px;
   margin-right: auto;
   border-radius: 3px;
@@ -373,4 +373,58 @@ margin-top: 60px;
   margin-left: 1200px;
   position: relative;
   
+}
+/*SKILLS*/
+.korea {
+  display: flex;
+  margin-left: 570px;
+  position: relative;
+  top: 160px; 
+}
+.indo{
+    display: flex;
+  margin-left: 150px;
+  position: relative;
+  top: -200px; 
+}
+.ph{
+    display: flex;
+  margin-left: 1030px;
+  position: relative;
+  top: -195px; 
+}
+.french{
+  display: flex;
+  margin-left: 1450px;
+  position: relative;
+  top: -200px; 
+}
+
+.titlekorea{
+ font-size: 8px;
+  color: white;
+font-family: 'Poppins', sans-serif;
+margin-left: 595px;
+margin-top: 175px;
+}
+.titleindo{
+ font-size: 8px;
+  color: white;
+font-family: 'Poppins', sans-serif;
+margin-left: 180px;
+margin-top: -198px;
+}
+.titleph{
+ font-size: 8px;
+  color: white;
+font-family: 'Poppins', sans-serif;
+margin-left: 1020px;
+margin-top: -190px;
+}
+.titlefrench{
+   font-size: 8px;
+  color: white;
+font-family: 'Poppins', sans-serif;
+margin-left: 1505px;
+margin-top: -200px;
 }
